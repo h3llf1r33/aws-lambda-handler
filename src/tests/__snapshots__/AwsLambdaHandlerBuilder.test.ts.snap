@@ -1,0 +1,436 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lambda Handler Tests Success Cases should handle crud operations through gateway 1`] = `
+{
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`Lambda Handler Tests Success Cases should handle crud operations through gateway 2`] = `
+[
+  {
+    "id": "1",
+    "name": "John Doe 1",
+  },
+  {
+    "id": "2",
+    "name": "John Doe 2",
+  },
+  {
+    "id": "3",
+    "name": "John Doe 3",
+  },
+  {
+    "id": "4",
+    "name": "John Doe 4",
+  },
+  {
+    "id": "5",
+    "name": "John Doe 5",
+  },
+  {
+    "id": "6",
+    "name": "John Doe 6",
+  },
+  {
+    "id": "7",
+    "name": "John Doe 7",
+  },
+  {
+    "id": "8",
+    "name": "John Doe 8",
+  },
+  {
+    "id": "9",
+    "name": "John Doe 9",
+  },
+  {
+    "id": "10",
+    "name": "John Doe 10",
+  },
+  {
+    "id": "11",
+    "name": "John Doe 11",
+  },
+  {
+    "id": "12",
+    "name": "John Doe 12",
+  },
+  {
+    "id": "13",
+    "name": "John Doe 13",
+  },
+  {
+    "id": "14",
+    "name": "John Doe 14",
+  },
+  {
+    "id": "15",
+    "name": "John Doe 15",
+  },
+  {
+    "id": "16",
+    "name": "John Doe 16",
+  },
+  {
+    "id": "17",
+    "name": "John Doe 17",
+  },
+  {
+    "id": "18",
+    "name": "John Doe 18",
+  },
+  {
+    "id": "19",
+    "name": "John Doe 19",
+  },
+  {
+    "id": "20",
+    "name": "John Doe 20",
+  },
+  {
+    "id": "21",
+    "name": "John Doe 21",
+  },
+  {
+    "id": "22",
+    "name": "John Doe 22",
+  },
+  {
+    "id": "23",
+    "name": "John Doe 23",
+  },
+  {
+    "id": "24",
+    "name": "John Doe 24",
+  },
+  {
+    "id": "25",
+    "name": "John Doe 25",
+  },
+  {
+    "id": "26",
+    "name": "John Doe 26",
+  },
+  {
+    "id": "27",
+    "name": "John Doe 27",
+  },
+  {
+    "id": "28",
+    "name": "John Doe 28",
+  },
+  {
+    "id": "29",
+    "name": "John Doe 29",
+  },
+  {
+    "id": "30",
+    "name": "John Doe 30",
+  },
+  {
+    "id": "31",
+    "name": "John Doe 31",
+  },
+  {
+    "id": "32",
+    "name": "John Doe 32",
+  },
+  {
+    "id": "33",
+    "name": "John Doe 33",
+  },
+  {
+    "id": "34",
+    "name": "John Doe 34",
+  },
+  {
+    "id": "35",
+    "name": "John Doe 35",
+  },
+  {
+    "id": "36",
+    "name": "John Doe 36",
+  },
+  {
+    "id": "37",
+    "name": "John Doe 37",
+  },
+  {
+    "id": "38",
+    "name": "John Doe 38",
+  },
+  {
+    "id": "39",
+    "name": "John Doe 39",
+  },
+  {
+    "id": "40",
+    "name": "John Doe 40",
+  },
+  {
+    "id": "41",
+    "name": "John Doe 41",
+  },
+  {
+    "id": "42",
+    "name": "John Doe 42",
+  },
+  {
+    "id": "43",
+    "name": "John Doe 43",
+  },
+  {
+    "id": "44",
+    "name": "John Doe 44",
+  },
+  {
+    "id": "45",
+    "name": "John Doe 45",
+  },
+  {
+    "id": "46",
+    "name": "John Doe 46",
+  },
+  {
+    "id": "47",
+    "name": "John Doe 47",
+  },
+  {
+    "id": "48",
+    "name": "John Doe 48",
+  },
+  {
+    "id": "49",
+    "name": "John Doe 49",
+  },
+  {
+    "id": "50",
+    "name": "John Doe 50",
+  },
+  {
+    "id": "51",
+    "name": "John Doe 51",
+  },
+  {
+    "id": "52",
+    "name": "John Doe 52",
+  },
+  {
+    "id": "53",
+    "name": "John Doe 53",
+  },
+  {
+    "id": "54",
+    "name": "John Doe 54",
+  },
+  {
+    "id": "55",
+    "name": "John Doe 55",
+  },
+  {
+    "id": "56",
+    "name": "John Doe 56",
+  },
+  {
+    "id": "57",
+    "name": "John Doe 57",
+  },
+  {
+    "id": "58",
+    "name": "John Doe 58",
+  },
+  {
+    "id": "59",
+    "name": "John Doe 59",
+  },
+  {
+    "id": "60",
+    "name": "John Doe 60",
+  },
+  {
+    "id": "61",
+    "name": "John Doe 61",
+  },
+  {
+    "id": "62",
+    "name": "John Doe 62",
+  },
+  {
+    "id": "63",
+    "name": "John Doe 63",
+  },
+  {
+    "id": "64",
+    "name": "John Doe 64",
+  },
+  {
+    "id": "65",
+    "name": "John Doe 65",
+  },
+  {
+    "id": "66",
+    "name": "John Doe 66",
+  },
+  {
+    "id": "67",
+    "name": "John Doe 67",
+  },
+  {
+    "id": "68",
+    "name": "John Doe 68",
+  },
+  {
+    "id": "69",
+    "name": "John Doe 69",
+  },
+  {
+    "id": "70",
+    "name": "John Doe 70",
+  },
+  {
+    "id": "71",
+    "name": "John Doe 71",
+  },
+  {
+    "id": "72",
+    "name": "John Doe 72",
+  },
+  {
+    "id": "73",
+    "name": "John Doe 73",
+  },
+  {
+    "id": "74",
+    "name": "John Doe 74",
+  },
+  {
+    "id": "75",
+    "name": "John Doe 75",
+  },
+  {
+    "id": "76",
+    "name": "John Doe 76",
+  },
+  {
+    "id": "77",
+    "name": "John Doe 77",
+  },
+  {
+    "id": "78",
+    "name": "John Doe 78",
+  },
+  {
+    "id": "79",
+    "name": "John Doe 79",
+  },
+  {
+    "id": "80",
+    "name": "John Doe 80",
+  },
+  {
+    "id": "81",
+    "name": "John Doe 81",
+  },
+  {
+    "id": "82",
+    "name": "John Doe 82",
+  },
+  {
+    "id": "83",
+    "name": "John Doe 83",
+  },
+  {
+    "id": "84",
+    "name": "John Doe 84",
+  },
+  {
+    "id": "85",
+    "name": "John Doe 85",
+  },
+  {
+    "id": "86",
+    "name": "John Doe 86",
+  },
+  {
+    "id": "87",
+    "name": "John Doe 87",
+  },
+  {
+    "id": "88",
+    "name": "John Doe 88",
+  },
+  {
+    "id": "89",
+    "name": "John Doe 89",
+  },
+  {
+    "id": "90",
+    "name": "John Doe 90",
+  },
+  {
+    "id": "91",
+    "name": "John Doe 91",
+  },
+  {
+    "id": "92",
+    "name": "John Doe 92",
+  },
+  {
+    "id": "93",
+    "name": "John Doe 93",
+  },
+  {
+    "id": "94",
+    "name": "John Doe 94",
+  },
+  {
+    "id": "95",
+    "name": "John Doe 95",
+  },
+  {
+    "id": "96",
+    "name": "John Doe 96",
+  },
+  {
+    "id": "97",
+    "name": "John Doe 97",
+  },
+  {
+    "id": "98",
+    "name": "John Doe 98",
+  },
+  {
+    "id": "99",
+    "name": "John Doe 99",
+  },
+  {
+    "id": "100",
+    "name": "John Doe 100",
+  },
+]
+`;
+
+exports[`Lambda Handler Tests Success Cases should handle crud operations through gateway 3`] = `
+{
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`Lambda Handler Tests Success Cases should handle crud operations through gateway 4`] = `
+{
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`Lambda Handler Tests Success Cases should handle crud operations through gateway 5`] = `
+{
+  "id": "1",
+  "name": "John Doe",
+}
+`;
+
+exports[`Lambda Handler Tests Success Cases should handle crud operations through gateway 6`] = `true`;

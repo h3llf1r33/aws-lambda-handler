@@ -1,0 +1,62 @@
+{
+  "name": "@denis_bruns/aws-lambda-handler",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "dist/types"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/lib --ext .ts",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm cache clean && npm run build",
+    "release": "bash release.sh patch",
+    "release:prerelease": "bash release.sh prerelease",
+    "release:minor": "bash release.sh minor",
+    "release:major": "bash release.sh major",
+    "release:patch": "bash release.sh patch",
+    "release:prepatch": "bash release.sh prepatch",
+    "release:premminor": "bash release.sh preminor",
+    "release:premajor": "bash release.sh premajor",
+    "jest": "jest",
+    "test": "jest src/tests --detectOpenHandles --forceExit"
+  },
+  "keywords": [
+    "clean-architecture",
+    "typescript",
+    "aws",
+    "lambda"
+  ],
+  "author": "denis_bruns@protonmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@denis_bruns/reflection": "^0.1.0",
+    "@denis_bruns/core": "^0.1.0",
+    "ajv": "^8.17.1",
+    "ajv-errors": "^3.0.0",
+    "ajv-formats": "^3.0.1",
+    "rxjs": "^7.8.1",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@denis_bruns/http-axios": "^0.1.2",
+    "@types/aws-lambda": "^8.10.147",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.6",
+    "axios-mock-adapter": "^2.1.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
