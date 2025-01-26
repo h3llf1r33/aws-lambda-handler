@@ -529,6 +529,54 @@ describe('Lambda Handler Tests', () => {
         });
     });
 
+    describe('Handler Schema Validation', () => {
+        it('should validate empty body when schema requires fields', async () => {
+            type InitialQuery = { email: string; name: string };
+            type Handlers = [typeof createUserHandler];
+
+            const handler = awsLambdaHandlerBuilder<InitialQuery, Handlers>()({
+                initialQueryReflector: {
+                    data: {
+                        email: "$['body']['email']",
+                        name: "$['body']['name']"
+                    }
+                },
+                handlers: [createUserHandler],
+                bodySchema: userSchema
+            });
+
+            const event = createEvent({ body: null });
+            const result = await handler(event, mockContext);
+
+            expect(result.statusCode).toBe(400);
+            const body = JSON.parse(result.body);
+            expect(body.validationErrors).toBeDefined();
+        });
+
+        it('should validate undefined body when schema requires fields', async () => {
+            type InitialQuery = { email: string; name: string };
+            type Handlers = [typeof createUserHandler];
+
+            const handler = awsLambdaHandlerBuilder<InitialQuery, Handlers>()({
+                initialQueryReflector: {
+                    data: {
+                        email: "$['body']['email']",
+                        name: "$['body']['name']"
+                    }
+                },
+                handlers: [createUserHandler],
+                bodySchema: userSchema
+            });
+
+            const event = createEvent({ body: undefined });
+            const result = await handler(event, mockContext);
+
+            expect(result.statusCode).toBe(400);
+            const body = JSON.parse(result.body);
+            expect(body.validationErrors).toBeDefined();
+        });
+    });
+
     describe('Custom Configurations', () => {
         it('should handle custom security headers', async () => {
             type InitialQuery = { email: string; name: string };
