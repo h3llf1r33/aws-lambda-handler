@@ -1,6 +1,6 @@
 {
   "name": "@denis_bruns/aws-lambda-handler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
@@ -39,8 +39,8 @@
   "author": "denis_bruns@protonmail.com",
   "license": "MIT",
   "dependencies": {
+    "@denis_bruns/core": "^0.1.2",
     "@denis_bruns/reflection": "^0.1.0",
-    "@denis_bruns/core": "^0.1.0",
     "ajv": "^8.17.1",
     "ajv-errors": "^3.0.0",
     "ajv-formats": "^3.0.1",

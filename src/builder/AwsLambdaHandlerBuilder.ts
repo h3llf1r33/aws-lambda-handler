@@ -180,8 +180,8 @@ export const awsLambdaHandlerBuilder = <
                     throw new Error('Content-Type must be application/json');
                 }
 
-                if (event.body && config.bodySchema) {
-                    const bodyData = JSON.parse(event.body);
+                if (config.bodySchema) {
+                    const bodyData = JSON.parse(event.body || "{}")
                     validate(config.bodySchema, bodyData);
                 }
 
